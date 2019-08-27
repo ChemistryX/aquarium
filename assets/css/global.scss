@@ -3,12 +3,11 @@
 body {
   margin: 0;
   padding: 0;
+  cursor: url('/assets/images/hook.svg'), pointer;
 }
 
-.main {
-  cursor: url('/assets/images/hook.svg'), pointer;
-  width: 100vw;
-  height: 100vh;
+#canvas {
+  background: lightblue;
 
   .fish {
     position: absolute;
