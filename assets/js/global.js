@@ -21,6 +21,7 @@ window.addEventListener('load', () => {
         oldX = e.pageX;
     }
 
+    // original source: https://codepen.io/incompl/pen/skpGa
     function handleMouseTrail(e) {
         [1, .9, .8, .5, .1].forEach(function (i) {
             var j = (1 - i) * 50;
