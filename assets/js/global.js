@@ -42,7 +42,7 @@ window.addEventListener('load', () => {
             document.body.appendChild(elem);
             window.setTimeout(function () {
                 document.body.removeChild(elem);
-            }, Math.round(Math.random() * i * 2000));
+            }, Math.round(Math.random() * i * 2500));
         });
     }
 
